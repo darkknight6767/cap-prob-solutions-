@@ -27,7 +27,6 @@ int sum=0;
     }
 
     public TreeNode bstToGst(TreeNode root) {
-        revInorder(root);
-        return root;
-    }
+        return revInorder(root);
+   }
 }
